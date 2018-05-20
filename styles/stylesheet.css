@@ -1,0 +1,208 @@
+body {
+  margin-top: -4px;
+  font-family: Arial;
+  font-size: 15px;
+  background-color: #70708b;
+}
+
+p, h1, h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
+.wrapper {
+  width: 975px;
+  margin: auto;
+}
+
+.header {
+  height: 240px;
+  background-image: url("../header.png");
+  background-color: #151517;
+}
+
+.header #sidebar {
+  margin-top: 20px;
+  margin-right: 20px;
+  line-height: 15px;
+  color: #ffffff;
+  font-size: 11px;
+  float: right;
+}
+
+.content {
+  height: 4350px;
+  background-color: #21203d;
+}
+
+.content_albums {
+  height: 650px;
+  background-color: #21203d;
+}
+
+.divider {
+  height: 38px;
+  background-color: #3a3a5a;
+}
+
+.divider p {
+  display: inline;
+  padding-left: 22px;
+  vertical-align: middle;
+  line-height: 38px;
+  font-weight: bold;
+  color: #afafca;
+}
+
+.divider a:hover {
+  text-decoration: underline;
+  text-decoration-color: #afafca;
+}
+
+.grid1 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px;
+  height: auto;
+}
+
+.grid2 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: 325px 325px 325px;
+  grid-template-rows: 330px;
+  height: auto;
+}
+
+.grid3 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px 330px;
+  height: auto;
+}
+
+.grid4 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px;
+  height: auto;
+}
+
+.grid5 {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 330px 330px 330px 330px;
+  height: auto;
+}
+
+.albumblock a {
+  text-decoration: none;
+}
+
+.albumblock a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
+.albumblock img {
+  max-width: 270px;
+  max-height: 270px;
+  display: block;
+  margin: 20px auto auto auto;
+}
+
+.albumblock p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 28px;
+}
+
+.albumblock h1 {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: -14px;
+  margin-left: 28px;
+}
+
+.albumgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 700px;
+  height: auto;
+}
+
+.albumdesc {
+  padding-top:40px;
+  padding-left: 28px;
+  color: #ffffff;
+}
+
+.albumdesc h1 {
+  font-size: 36px;
+  color: #cecee2;
+  margin: -4px auto 10px -2px;
+}
+
+.albumdesc h2 {
+  display: inline;
+  font-size: 15px;
+}
+
+.albumdesc h3 {
+  margin: -8px auto 10px auto;
+  font-size: 16px;
+}
+
+.albumdesc #tracks {
+  font-size: 13px;
+  padding-top: 40px;
+  line-height: 24px;
+}
+
+.albumdesc #description {
+  font-size: 13px;
+  padding-top: 40px;
+  line-height: 20px;
+}
+
+.albumpic img {
+  width: 500px;
+  float: right;
+  margin: 40px 28px auto auto;
+}
+
+.aboutblock {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 40px 27.5px 40px 27.5px;
+}
+
+.aboutblock a {
+  text-decoration: underline;
+}
+
+.footer {
+
+}
