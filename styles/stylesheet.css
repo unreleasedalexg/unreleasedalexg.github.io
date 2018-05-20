@@ -204,5 +204,14 @@ a:hover {
 }
 
 .footer {
+  height: 150px;
+  margin-top: 10px;
+  background: url('../quotes_lmao.png') right top no-repeat;
+}
 
+.footer #quote {
+  padding-top: 65px;
+  padding-right: 90px;
+  font-size: 13px;
+  text-align: right;
 }
