@@ -26,4 +26,4 @@ var quotes = [
 ]
 
 var rand = Math.floor(Math.random() * (quotes.length))
-document.getElementById('quote').innerHTML = quotes[rand];
+document.getElementById('lmaotext').innerHTML = quotes[rand];

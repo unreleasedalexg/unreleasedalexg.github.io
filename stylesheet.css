@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  background-color: #70708b;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#wrapper {
+  width: 975px;
+  margin: auto;
+}
+
+#header {
+  height: 240px;
+  padding: 0 20px 0 0;
+  background-image: url('header.png');
+  background-color: #151517;
+
+  text-align: right;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+#divblock {
+  height: 38px;
+  padding-left: 20px;
+  background-color: #3a3a5a;
+
+  font-weight: bold;
+  color: #afafca;
+  line-height: 38px;
+}
+
+#divblock a {
+  color: #afafca;
+  text-decoration: none;
+}
+
+#divblock a:hover {
+  text-decoration: underline;
+  text-decoration-color: #afafca;
+}
+
+#agrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 35px 10px 15px 10px;
+  background-color: #21203d;
+}
+
+#agridblock {
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+#agridblock img {
+  height: 260px;
+  width: auto;
+  margin-bottom: 2px;
+}
+
+#agridblock cite {
+  font-style: normal;
+  font-weight: bold;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  padding: 40px 40px 40px 40px;
+  background-color: #21203d;
+}
+
+#gridblock cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #cecee2;
+}
+
+#gridblock p {
+  line-height: 22px;
+}
+
+#gridblock img {
+  float: right;
+  height: 475px;
+  width: auto;
+}
+
+#footer {
+  height: 150px;
+  margin-top: 10px;
+  padding: 60px 90px 0px 0px;
+  background: url('img/lmaobox.png') no-repeat right top;
+}
+
+#lmaotext {
+  float: right;
+  color: black;
+}
