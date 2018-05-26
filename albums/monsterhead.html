@@ -1,8 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
   <title>Monsterhead</title>
+
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  <link type="text/css" href="../skin/pink.flag/css/jplayer.pink.flag.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="../jplayer.playlist.min.js"></script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+  	new jPlayerPlaylist({
+  		jPlayer: "#jquery_jplayer_1",
+  		cssSelectorAncestor: "#jp_container_1"
+  	}, [
+  		{
+  			title:"Maybe Baby",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/7558e536da5b.mp3"
+  		},
+  		{
+  			title:"Nintendo 64",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/8ee568ac49de.mp3"
+  		},
+  		{
+  			title:"Chinese Melodies",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/7d761433f00f.mp3"
+  		},
+  		{
+  			title:"Krying",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/951036236495.mp3",
+  		},
+  		{
+  			title:"You Are Great",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/7fdcdac558c4.mp3",
+  		},
+  		{
+  			title:"Skating",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/0eed0e1c85a6.mp3",
+  		},
+  		{
+  			title:"Uh",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/ead6c4e880a6.mp3",
+  		},
+  		{
+  			title:"Hole In The Ground",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/2bba353f60eb.mp3",
+  		},
+  		{
+  			title:"I Remember You",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/e565ae1a501b.mp3",
+  		},
+  		{
+  			title:"Something 2 B",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/9fa70cb435fa.mp3",
+  		},
+  		{
+  			title:"Change My Mind",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/692c8c09deb3.mp3",
+  		},
+  		{
+  			title:"Scared",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/a4031de55a50.mp3",
+  		},
+  		{
+  			title:"Written In Blood",
+  			mp3:"https://psv4.vkuseraudio.net/c815428/u56739659/audios/f910f0040644.mp3",
+  		}
+  	], {
+  		supplied: "mp3",
+  		useStateClassSkin: true,
+  		autoBlur: false,
+  		smoothPlayBar: true,
+  		keyEnabled: true
+  	});
+
+  	$("#jplayer_inspector_1").jPlayerInspector({jPlayer:$("#jquery_jplayer_1")});
+  });
+  </script>
 </head>
 
 <body>
@@ -15,21 +90,50 @@
         <div id="gridblock"><div id="description">
           <cite>Monsterhead</cite><br><br>
           <a href="https://mega.nz/#!qwYnnBhQ!0UgInNNJYR3huvBeq_JIt1lhbEU-m4lhjgEf53-HRrk" target="_blank"><b>download album</b></a><br><br>
-          <p>1. Maybe Baby<br>
-          2. Nintendo 64<br>
-          3. Chinese Melodies<br>
-          4. Krying<br>
-          5. You Are Great<br>
-          6. Skating<br>
-          7. Uh<br>
-          8. Hole In The Ground<br>
-          9. I Remember You<br>
-          10. Something 2 B<br>
-          11. Change My Mind<br>
-          12. Scared<br>
-          13. Written In Blood<br><br>
-          tracks found by cev, oilage and others<br>
-          released 2015</p>
+          <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+          <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+          	<div class="jp-type-playlist">
+          		<div class="jp-gui jp-interface">
+          			<div class="jp-volume-controls">
+          				<button class="jp-mute" role="button" tabindex="0">mute</button>
+          				<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+          				<div class="jp-volume-bar">
+          					<div class="jp-volume-bar-value" style="width: 80%;"></div>
+          				</div>
+          			</div>
+          			<div class="jp-controls-holder">
+          				<div class="jp-controls">
+          					<button class="jp-previous" role="button" tabindex="0">previous</button>
+          					<button class="jp-play" role="button" tabindex="0">play</button>
+          					<button class="jp-stop" role="button" tabindex="0">stop</button>
+          					<button class="jp-next" role="button" tabindex="0">next</button>
+          				</div>
+          				<div class="jp-progress">
+          					<div class="jp-seek-bar" style="width: 100%;">
+          						<div class="jp-play-bar" style="width: 23.4771%;"></div>
+          					</div>
+          				</div>
+          				<div class="jp-current-time" role="timer" aria-label="time">01:02</div>
+          				<div class="jp-duration" role="timer" aria-label="duration">04:27</div>
+          				<div class="jp-toggles">
+          					<button class="jp-repeat" role="button" tabindex="0">repeat</button>
+          					<button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+          				</div>
+          			</div>
+          		</div>
+          		<div class="jp-playlist">
+                <ul>
+                  <li></li>
+                </ul>
+          		</div>
+          		<div class="jp-no-solution" style="display: none;">
+          			<span>Update Required</span>
+          			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+          		</div>
+          	</div>
+          </div>
+          <p>tracks found by cev, oilage and others<br>
+          released 2015</p><br>
         </div></div>
         <div id="gridblock"><img src="../img/monsterhead.png"></div>
       </div>

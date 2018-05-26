@@ -91,6 +91,10 @@ a:hover {
   color: #cecee2;
 }
 
+#gridblock b {
+  font-size: 12px;
+}
+
 #gridblock p {
   line-height: 22px;
 }
