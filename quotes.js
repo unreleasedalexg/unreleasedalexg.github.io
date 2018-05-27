@@ -22,7 +22,8 @@ var quotes = [
   'just heard about this thing on the internet... pretty funny',
   'my biggest musical influence ... <br>probably that movie... you know the one',
   'the craziest thing I ever seen was a alien UFO ...<br> crazy still think about it...',
-  '"Alex looks like he eats a lot of garlic."'
+  '"Alex looks like he eats a lot of garlic."',
+  'I’m really good at making scrambled eggs.<br> I think that’s my specialty. Cheesy eggs.'
 ]
 
 var rand = Math.floor(Math.random() * (quotes.length))
