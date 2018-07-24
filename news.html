@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <title>News</title>
 </head>
 
@@ -16,11 +17,37 @@
     #news a {
         text-decoration: underline;
     }
+
+    .newsblock {
+        width: 550px;
+        background: grey;
+        padding: 4px 0 10px 12px;
+        background: linear-gradient(#6b7da4, #4e5983);
+        border-style: outset;
+        border-color: #828eb9;
+
+        font-family: Verdana, sans-serif;
+        font-size: 15px;
+        color: #ccd1e3;
+    }
+
+    .date {
+        font-size: 11px;
+        font-weight: bold;
+        color: #1a223d;
+    }
 </style>
 
 <body>
     <div id="wrapper">
-        <div id="header"><br><a href="https://sandy.bandcamp.com/" target="_blank">Alex G</a><br><a href="about.html">about</a><br><a href="https://discord.gg/bWbwnRC" target="_blank">discord</a><br><a href="news.html">news</a><br><a href="tabs.html">tabs</a></div>
+        <div id="header">
+            <a href="about.html" class="navbtn">about</a>
+            <a href="news.html" class="navbtn">news</a>
+            <a href="tabs.html" class="navbtn">tabs</a>
+            <a href="https://sandy.bandcamp.com/" target="_blank" title="Alex G"><i class="fab fa-bandcamp"></i></a>
+            <a href="https://discord.gg/bWbwnRC" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+            <a href="https://www.reddit.com/r/sandyalexg/" target="_blank" title="Subreddit"><i class="fab fa-reddit"></i></a>
+        </div>
 
         <div id="content">
             <div id="divblock">
@@ -28,17 +55,20 @@
                     < back</a>
             </div>
             <div id="news">
-                - july 15, 2018<br>
-                added the kane konundrum live set, reripped williamsburg live set<br><br>
-
-                - may 26, 2018<br>
-                added silent barn, golden tea and at knitting live sets<br><br>
-
-                - may 23, 2018<br>
-                site update<br><br>
-
-                - may 20, 2018<br>
-                new site is up
+                <div class="newsblock"><div class="date">july 24, 2018</div>
+                Site update and new live sets: Live at The Headroom, Live in the Hive, At Daytrotter Studio.</div>
+                <br>
+                <div class="newsblock"><div class="date">july 15, 2018</div>
+                added the kane konundrum live set, reripped williamsburg live set</div>
+                <br>
+                <div class="newsblock"><div class="date">may 26, 2018</div>
+                added silent barn, golden tea and at knitting live sets</div>
+                <br>
+                <div class="newsblock"><div class="date">may 23, 2018</div>
+                site update</div>
+                <br>
+                <div class="newsblock"><div class="date">may 20, 2018</div>
+                new site is up</div>
             </div>
         </div>
 

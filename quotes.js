@@ -1,7 +1,7 @@
 var quotes = [
     'you ever put pepper on shit?',
     'just pretend you know wat ur doing',
-    'I can&#39t pretend I&#39m calculating this thing out.<br> It just shits out of my fucking face.',
+    'I can\'t pretend I\'m calculating this thing out.<br> It just shits out of my fucking face.',
     'I have kind of a funny walk',
     'Have you seen AI?',
     'Wtf does this mean',
@@ -23,7 +23,9 @@ var quotes = [
     'my biggest musical influence ... <br>probably that movie... you know the one',
     'the craziest thing I ever seen was a alien UFO ...<br> crazy still think about it...',
     '"Alex looks like he eats a lot of garlic."',
-    'I’m really good at making scrambled eggs.<br> I think that’s my specialty. Cheesy eggs.'
+    'I\'m really good at making scrambled eggs.<br> I think that\'s my specialty. Cheesy eggs.',
+    'matt damon nothing 2 me', 'get your hands off me Sarge', 'reveal Door', 'a cowboy awakens from a deep sleep.',
+    'stay in skhool'
 ]
 
 var rand = Math.floor(Math.random() * (quotes.length))
