@@ -1,6 +1,5 @@
 html {
   background: rgb(72,65,73);
-  background: linear-gradient(180deg, rgba(72,65,73,1) 0%, rgba(87,80,106,1) 20%, rgba(107,88,108,1) 33%, rgba(125,90,98,1) 48%, rgba(130,95,103,1) 63%, rgba(115,91,106,1) 76%, rgba(72,65,73,1) 100%);
 }
 
 body {
@@ -73,7 +72,7 @@ a:hover {
   margin-bottom: 4px;
 }
 
-/* album page description styles */
+/* album description page styles */
 
 .album-page-grid {
   display: grid;
@@ -81,10 +80,16 @@ a:hover {
   padding-bottom: 30px;
 }
 
-.album-page-item img {
+.album-page-grid img {
   width: 100%;
   height: auto;
 }
-.album-page-item p {line-height:24px;}
-.album-page-item h1 {margin-top:0;font-weight:normal;}
-.album-page-item a {}
+
+.album-page-grid a {
+  color: #af6e8e;
+  font-size: 15px;
+}
+
+.album-page-grid a:hover {color:#993064}
+.album-page-grid p {line-height:24px;}
+.album-page-grid h1 {margin-top:0;font-weight:normal;}
