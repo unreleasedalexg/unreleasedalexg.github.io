@@ -31,18 +31,18 @@ a:hover {
 }
 
 #header-img {
-  margin: 25px 0 10px 0;
-  width: 280px;
+  margin: 15px 0 10px 0;
+  width: 250px;
   height: auto;
 }
 
 #nav {
   color: #b2afa4;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 #nav a {
-  margin: 0 3px 0 3px;
+  margin: 0 9px 0 9px;
 }
 
 /* album grid styles */
@@ -86,10 +86,9 @@ a:hover {
 }
 
 .album-page-grid a {
-  color: #af6e8e;
   font-size: 15px;
 }
 
 .album-page-grid a:hover {color:#993064}
 .album-page-grid p {line-height:24px;}
-.album-page-grid h1 {margin-top:0;font-weight:normal;}
+.album-page-grid h1 {margin-top:0;font-weight:normal;font-size:28px;}
