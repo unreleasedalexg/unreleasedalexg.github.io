@@ -1,72 +1,41 @@
 html {
-  background: #e8e8e8;
+    background: rgb(39,29,73);
+    background: linear-gradient(90deg, rgba(39,29,73,1) 0%, rgba(60,47,103,1) 41%, rgba(85,72,130,1) 100%);
 }
 
 body {
-  font-family: sans-serif;
-  font-size: 12px;
-  max-width: 850px;
-  margin: auto;
+    font-family: sans-serif;
+    font-size: 120%;
+    color: aliceblue;
+    
+    max-width: 850px;
+    margin: auto;
+  }
 
-  overflow-y: scroll;
+a:link {
+  color: rgb(171, 113, 189);
+  background-color: transparent;
+  text-decoration: none;
 }
 
-a {
+a:visited {
+  color: rgb(173, 146, 175);
+  background-color: transparent;
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover {
+  color: rgb(163, 96, 172);
+  background-color: transparent;
   text-decoration: underline;
 }
 
-h1,h2,h3,h4 { margin-top: 0; }
-
-h4 { font-size:13px }
-
-#wrapper {
-  padding: 12px 20px 12px 20px;
-  background-color: white;
+a:active {
+  color: rgb(57, 27, 59);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-#header a {
-  margin-right: 5px;
-}
-
-.albums-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 15px;
-  grid-column-gap: 55px;
-}
-
-.albums-grid-4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 15px;
-  grid-column-gap: 55px;
-}
-
-.albums-grid img, .albums-grid-4 img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 3px;
-}
-
-.album-page-grid {
-	display: grid;
-  grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 100px;
-
-	line-height: 21px;
-}
-
-.album-page-grid img {
-	width: 100%;
-  height: auto;
-}
-
-.album-page-grid h1 {
-	font-weight: normal;
-	font-size: 26px;
+.icon {
+    padding-right: 0.3em;
 }
