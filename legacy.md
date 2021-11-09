@@ -1,14 +1,9 @@
-Rarities
-https://drive.google.com/open?id=10G4UzAWymcuqYXUc4TIjaUpiAhYExENM
+[Rarities](https://drive.google.com/open?id=10G4UzAWymcuqYXUc4TIjaUpiAhYExENM)
 
-Tour
-https://drive.google.com/open?id=1yeugeRjZguqOvIbqeSd5UZV7l8mJ-LDu
+[Tour](https://drive.google.com/open?id=1yeugeRjZguqOvIbqeSd5UZV7l8mJ-LDu)
 
-Covers
-https://drive.google.com/open?id=1Z2UGLXNo6osqOqOV3cPGmsk5Rk5stRkj
+[Covers](https://drive.google.com/open?id=1Z2UGLXNo6osqOqOV3cPGmsk5Rk5stRkj)
 
-Compilation
-https://drive.google.com/open?id=16OqGdrVye8meKmMjMZUiBNr6tSeemkzF
+[Compilation](https://drive.google.com/open?id=16OqGdrVye8meKmMjMZUiBNr6tSeemkzF)
 
-Compilation 2
-https://drive.google.com/open?id=1Q4USmflnS_N0609gPfW0X3vnRzyQDvGP
+[Compilation 2](https://drive.google.com/open?id=1Q4USmflnS_N0609gPfW0X3vnRzyQDvGP)
