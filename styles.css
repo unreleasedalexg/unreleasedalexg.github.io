@@ -1,47 +1,33 @@
 html {
-    background: rgb(39,29,73);
-    background: linear-gradient(90deg, rgba(39,29,73,1) 0%, rgba(60,47,103,1) 41%, rgba(85,72,130,1) 100%);
+  background: rgb(235, 231, 217);
 }
-
 body {
-    font-family: 'Segoe UI', 'Helvetica', sans-serif;
-    color: aliceblue;
-    
-    max-width: 650px;
-    margin: auto;
-  }
+  font-family: "Old Standard TT", serif;
+  font-size: 2.3em;
+  font-weight: 700;
 
-a:link {
-  color: rgb(171, 113, 189);
-  background-color: transparent;
+  max-width: 675px;
+  margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+h1 {
+  font-family: "UnifrakturMaguntia", cursive;
+  color: rgb(49, 140, 150);
+  text-shadow: -2px 2px 0px rgb(41, 93, 99);
+}
+a {
+  color: rgb(49, 140, 150);
   text-decoration: none;
 }
-
-a:visited {
-  color: rgb(173, 146, 175);
-  background-color: transparent;
-  text-decoration: none;
-}
-
 a:hover {
-  color: rgb(163, 96, 172);
-  background-color: transparent;
   text-decoration: underline;
 }
-
-a:active {
-  color: rgb(57, 27, 59);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 .icon {
-    padding-right: 0.3em;
-}
+  margin-right: 0.3em;
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  border: 2px ridge rgb(41, 93, 99);
+}
+#headimg {
+  max-width: 15%;
 }
